@@ -1,0 +1,76 @@
+body {
+  background-color: bisque;
+  background-image: url("img/brown-wood.jpg");
+  background-size: cover;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+#bj-container {
+  
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-image: url("img/table-green.jpg");
+  height: 650px;
+  border: 20px solid rgb(37, 24, 24);
+  border-radius: 20px;
+}
+
+
+.content-container {
+  height: 400px;
+  margin-top: 40px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(248, 248, 53);
+  margin-top: 50px;
+  font-size: 60px;
+}
+
+#message-el {
+  font-style: italic;
+  font-size: 40px;
+  color: rgb(248, 248, 53) ;
+}
+
+.start-btn {
+  width: 150px;
+  color: black;
+  background-color: rgb(248, 248, 53) ;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+button {
+  margin: 2px 0;
+}
+
+button:hover {
+  background-color: brown;
+  color: rgb(248, 248, 53);
+}
+
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  #message-el {
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(248, 248, 53) ;
+  }
+
+  #player-el {
+    font-size: 20px;
+  }
+}
